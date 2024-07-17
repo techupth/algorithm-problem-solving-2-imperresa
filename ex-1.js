@@ -17,5 +17,8 @@ function findStudentIndex(students, searchStudent) {
 }
 
 // ตอบคำถามตรงนี้จ้า
+
+// O(log n) เพราะเป็น binary search ที่มีการเรียงลำดับตัวอักษรอยู่แล้ว
+
  let students = ["Andrew", "Bobby", "Diana", "George", "Hannah", "Isaac", "Jasmine", "John"]
  console.log(findStudentIndex(students,"John"));
